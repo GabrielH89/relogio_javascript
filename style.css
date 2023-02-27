@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.relogio {
+    background-color: black;
+    position: relative;
+    color: white;
+    display: flex;
+    width: 550px;
+    height: 250px;
+    border: 10px black;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 3px solid green;
+}
+
+.relogio div {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #00FF7F;
+}
+
+.novoHorario {
+    background-color: black;
+    position: relative;
+    color: white;
+    display: flex;
+    width: 550px;
+    height: 250px;
+    border: 10px black;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 3px solid green;
+    display: none
+}
+
+
+
+
+
+
